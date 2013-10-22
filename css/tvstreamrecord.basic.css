@@ -1,0 +1,106 @@
+html, body { background-color:#fff; font-weight:bold; font-family:Arial; font-size:100%; height:100%; margin:0; padding:0;}
+
+#mybody {
+    float:left;
+    min-width:1000px;
+    width:100%;
+    background:#F4F7FB;
+    font-size:93%;
+    line-height:normal;
+    border-bottom:1px solid #BCD2E6;
+}
+
+    body{
+        font: 62.5% "Trebuchet MS", sans-serif;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+    .demoHeaders {
+        margin-top: 2em;
+    }
+
+    [id^=icons-], [id^=iconsEPG-] {
+        margin: 0px 0px;
+        position: relative;
+        padding: 0px 0px;
+        cursor: pointer;
+        float: left;
+        height: 14px;
+        width: 14px;
+        margin-left: 7px;
+    }
+    [id^=icons-] span.ui-icon  {
+        float: left;
+        margin: -2px -2px;
+    }
+    [id^=iconsEPG-] span.ui-icon  {
+        float: left;
+        margin: -2px -1px;
+    }
+
+    .fakewindowcontain .ui-widget-overlay {
+        position: absolute;
+    }
+    
+label,option { display:block;}
+input#ret, select#channel { display:block;}
+label {clear:both; }
+input.text { margin-bottom:8px; width:95%; padding: .2em; }
+input.file { margin-bottom:118px; width:95%; padding: .2em; }
+fieldset { padding:0; border:0; margin-top:15px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+div#users-contain { width: 90%; margin: 20px 5%; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
+#timepicker_inline_div1 { width:45%; float:left; }
+#timepicker_inline_div2 { width:45%; float:left; margin-left:10px; }
+select#channel { width:85%; float:left; margin-bottom:8px; padding: .2em; } 
+label#append {float: left; margin-top: 3px;}
+#chb1 { width:46%; float: left;}
+#chb2 { width:46%; float: right;}
+
+[id^=cfg_].text { margin-bottom:0px; width:95%; padding: 0.1em; }
+
+.ui-button-text-only .ui-button-text  { padding: 0px 3px; }
+[id^=iconsEPG] {cursor: default; float: left; clear: none;}  
+
+#feedback { font-size: 1.4em; }
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0 0 70px 0; width: 100%; }
+#selectable li { height: 60px; font-size: 7px; text-align: center; position: absolute;  font-size: 1em; }
+
+#selectabletitle .ui-selecting { background: #FECA40; }
+#selectabletitle .ui-selected { background: #F39814; color: white; }
+#selectabletitle { list-style-type: none; margin: 0; padding: 0 0 30px 0; width: 100%; }
+#selectabletitle li { height: 20px; font-size: 1.2em; text-align: center; position: absolute; }
+
+#datepicker1, #datepicker3  { width: 100px; float:left; margin-left: 5px; margin-right: 5px;}
+#float { float:left; margin-top: 3px; }
+
+div#about {font-size:150%;}
+
+th.ccontrols { width: 100px; }
+th.cid { width: 40px; }
+th.cname { width: 200px; }
+th.cext { width: 50px; }
+
+th.rcontrols { width: 180px; }
+th.rrecu { width: 100px; }
+th.rtill { width: 15%; }
+th.rat { width: 15%; }
+
+th.ldatetime { width: 150px; }
+th.lout { width: 30px; }
+
+#logo {
+    position: absolute;
+    top: 5px;    
+    right: 5%;    
+}
+
+[id^=wwd] { width: 13.3%; }
+[id^=wwd].ui-state-active { background: #accccc; }

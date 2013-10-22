@@ -1,0 +1,40 @@
+2013-10-20 0.5.2 Extended EPG grab support. Please check About page
+                 Highlight events beeing recorded in EPG
+                 Automatic timed EPG grab (see config)
+                 Stream link at EPG page to use with video players and browser plugins
+                 Several bug fixes 
+
+2013-08-19 0.5.1 EPG grabbing beta
+
+2013-08-19 0.5.0 Channel editing and moving added
+                 Channel list can now be exported and saved
+				 Record editing added
+                 Disabling/deleting channels also disable/delete all their records 
+                 Several bug fixes & dialog optimisation
+
+2013-05-27 0.4.8 URL length fixed / increased to 255
+
+2013-03-07 0.4.7 Recurrent FFMPEG records added/fixed 
+
+2013-02-19 0.4.6 Stream types, which should be forwarded to ffmpeg, are now configurable
+                 ffmpeg output attributes now changeable
+                 Please check 'About' page for further info regarding ffmpeg support
+
+2013-02-13 0.4.5 Channel file extension added
+                 Experimental ffmpeg support for rtmp streams
+                 Python check removed, support for other Pythons added
+                 EPG check for new added channels can be called anytime and has a running check  
+
+2013-02-06 0.4.4 Recurrent records are now available
+
+2013-02-06 0.4.3 About page and Wiki added, recorded file extension fixed and now configurable
+                 Default sorting column for all tables implemented                 
+                 Old records will be shown and must be purged manually
+                 
+2013-02-04 0.4.3 CherryPy Server implemented for better stability under load
+ 
+2013-02-03 0.4.2a Syno-branch only: broken update script fixed. Sorry for inconvenience.
+
+2013-02-03 0.4.2 Logging, license information, further optimisation
+
+2013-02-02 0.4.1 Default database only. Database will be kept on update.
